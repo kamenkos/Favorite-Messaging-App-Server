@@ -66,6 +66,15 @@ web_modules/
 # Optional REPL history
 .node_repl_history
 
+# Ignore node_modules directory
+node_modules/
+
+# Ignore .env file
+.env
+
+# Ignore node_modules directory
+node_modules/
+
 # Output of 'npm pack'
 *.tgz
 
@@ -128,3 +137,4 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+config.env
